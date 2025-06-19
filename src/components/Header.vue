@@ -175,7 +175,7 @@ const toggleMenu = () => {
     }
 
     .menu .menu-items a {
-      padding: calc(#{$spacingSmall} + 0.125rem) $spacingBase;
+  
       font-size: $fontSizeBase;
     }
   }
