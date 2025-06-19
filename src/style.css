@@ -1,0 +1,68 @@
+/* CSS Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Chuẩn hóa font và line-height */
+html {
+  font-size: 100%; /* Đảm bảo font-size cơ bản là 16px */
+  line-height: 1.15; /* Chuẩn hóa line-height */
+  -webkit-text-size-adjust: 100%; /* Ngăn iOS tự động điều chỉnh kích thước chữ */
+}
+
+/* Định nghĩa body với các kiểu reset và giữ các kiểu hiện có */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+  overflow-x: hidden;
+  line-height: 1.5; /* Thêm line-height cho văn bản dễ đọc */
+}
+
+/* Xóa kiểu mặc định cho danh sách */
+ul, ol {
+  list-style: none;
+}
+
+/* Xóa kiểu mặc định cho liên kết */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Chuẩn hóa hình ảnh và media */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Chuẩn hóa form elements */
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  border: 0;
+  outline: none;
+}
+
+/* Xóa outline mặc định khi focus, nhưng giữ accessibility */
+:focus {
+  outline: 0;
+}
+
+/* Đảm bảo table hiển thị nhất quán */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Wrapper hiện có */
+.wrapper {
+  max-width: 2000px;
+  margin: 0 auto;
+}

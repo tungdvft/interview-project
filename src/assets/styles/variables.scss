@@ -1,0 +1,29 @@
+/* Màu sắc */
+$primaryColor: #00c4a7; /* Màu chính, dùng cho header và hover effect */
+$textColor: #000; /* Màu chữ chính, dùng cho tiêu đề và nội dung */
+$white: #fff; /* Màu trắng, dùng cho nền card và chữ */
+$shadowColor: rgba(0, 0, 0, 0.15); /* Màu bóng cho card */
+$shadowHoverColor: rgba(0, 0, 0, 0.2); /* Màu bóng khi hover card */
+
+/* Kích thước chữ */
+$fontSizeSmall: 0.875rem; /* 14px, dùng cho text trong card */
+$fontSizeBase: 1rem; /* 16px, kích thước chữ mặc định */
+$fontSizeMedium: 1.125rem; /* 18px, dùng cho tiêu đề nhỏ */
+$fontSizeLarge: 1.5rem; /* 24px, dùng cho tiêu đề lớn */
+
+/* Khoảng cách */
+$spacingSmall: 0.5rem; /* 8px, padding nhỏ */
+$spacingBase: 1rem; /* 16px, khoảng cách tiêu chuẩn */
+$spacingLarge: 1.5rem; /* 24px, padding lớn */
+$spacingXLarge: 2rem; /* 32px, padding cho màn hình lớn */
+
+/* Bo góc và bóng */
+$borderRadius: 4px; /* Bo góc cho nút và card */
+$boxShadow: 0 0.0625rem 0.1875rem $shadowColor; /* Bóng nhẹ cho card */
+$boxShadowHover: 0 0.25rem 0.5rem $shadowHoverColor; /* Bóng khi hover card */
+
+/* Breakpoint */
+$breakpointSm: 576px; /* Tablet nhỏ */
+$breakpointMdSm: 768px; /* Tablet trung bình */
+$breakpointMd: 992px; /* Desktop */
+$breakpointLg: 1200px; /* Desktop lớn *//* Màu sắc */
