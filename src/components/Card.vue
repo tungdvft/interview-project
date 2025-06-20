@@ -25,6 +25,7 @@ defineProps({
   color: inherit;
   border-radius: $borderRadius;
   transition: box-shadow 0.2s ease;
+  padding-bottom: 1rem;
 
   .image-wrapper {
     width: 100%;
@@ -48,7 +49,7 @@ defineProps({
     padding: $spacingSmall;
     color: $textColor;
     line-height: 1.4;
-    max-height: calc(1.85rem * 1.4 * 2); /* 2 dòng */
+    max-height: calc(1rem * 1.4 * 2); /* 2 dòng */
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
